@@ -1,0 +1,87 @@
+.header{
+  background:#000;
+  height:53px;
+  width:100%;
+}
+.wrapper{
+    width:98%;
+    margin:0px auto;
+    height:100%;
+}
+.logo {
+    float:left;    
+    margin-right: 25px;
+}
+.logo img{
+    width:82px;
+    margin-top:5px;        
+    margin-bottom:5px;
+}
+.menu {
+    padding-left:18px;    
+    padding-right:18px;
+    display: table-cell;
+    height: 53px;
+    float:left;
+    font-size: 16px;
+    padding-top:16px;
+    box-sizing: border-box;
+    background:#000;
+    transition: background 0.3s ease-in;
+}
+.menu:hover{
+    background:#fff;
+}
+.menu:hover a{
+    color:#333;
+}
+.menu a{
+    color:#fff;
+    text-decoration: none;
+}
+.utilities {
+    float:right;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.searchUtility {
+    width:300px;
+    position: relative;
+    padding: 10px;
+    box-sizing: border-box;
+} 
+.iconMenu li{
+    list-style-type: none;
+    float:left;
+}
+.searchIcon{
+    position: absolute;
+    color:#ffb039;
+    left:255px;
+    font-size:22px;
+    display: inline-block;
+}
+.searchUtility input {
+    width:100%;
+    border-radius:10px;    
+    display: inline-block;
+    border:0px;
+    height:35px;
+    padding-left:10px;
+    box-sizing: border-box;
+    font-size:12px;
+    color:#333;
+    outline:none;
+}
+.icon {
+    color:#fff;
+    font-size: 24px;
+    padding:15px;
+}
+
+.userIcon img{
+    border-radius: 50%;
+    margin-top:5px;
+    padding:0px 15px;
+}
